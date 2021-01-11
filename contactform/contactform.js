@@ -89,11 +89,9 @@ jQuery(document).ready(function($) {
       }
     });
     if (ferror) return false;
-    if (1) {
-          $("#sendmessage").addClass("show");
-          $("#errormessage").removeClass("show");
-          $('.contactForm').find("input, textarea").val("");
-        }
+    $("#sendmessage").addClass("show");
+    $("#errormessage").removeClass("show");
+    $('.contactForm').find("input, textarea").val("");
 //     else var str = $(this).serialize();
 //     var action = $(this).attr('action');
 //     if( ! action ) {
